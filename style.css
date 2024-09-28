@@ -1,0 +1,286 @@
+body {
+    background-color: #D1BB9E;
+    padding: 0%;
+    margin: 0%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #F3EEEA;
+    padding: 20px;
+    height: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-size: x-large;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 600;
+    font-style: bold;
+    
+}
+
+.header {
+    position: absolute;
+    z-index: 1;
+    color: #776B5D;
+    left: 3%;
+    top: 2.5%;
+    font-size: 30px;
+    text-decoration: underline dashed;
+    font-weight: bold;
+}
+
+#tombol-login {
+    background-color: #B0A695;
+    /* Biru */
+    color: #fff;
+    /* Putih */
+    padding: 10px 15px;
+    /* Atur padding */
+    border-radius: 5px;
+    /* Bulatkan sudut */
+    top: 2.5%;
+    margin-left: 90%;
+    position: absolute;
+
+}
+
+form {
+    position: absolute;
+    left: 50%;
+    top: 2.5%;
+    display: inline-block;
+    /* Menampilkan form dalam satu baris */
+    margin-right: 20px;
+}
+
+form>input {
+    padding: 10px;
+    /* Memberi padding di dalam kotak input */
+    border: 1px solid #ccc;
+    /* Memberi border tipis */
+    border-radius: 5px;
+    /* Membulatkan sudut */
+    font-size: 16px;
+    /* Mengatur ukuran font */
+}
+
+nav button[type="submit"] {
+    padding: 5px 10px;
+    /* Memberi padding pada tombol */
+    background-color: #A79277;
+    /* Warna latar belakang biru */
+    color: #fff;
+    /* Warna teks putih */
+    border: none;
+    /* Menghilangkan border default */
+    border-radius: 5px;
+    /* Membulatkan sudut */
+    cursor: pointer;
+    /* Mengubah kursor menjadi pointer saat hover */
+}
+
+nav input[type="text"]:focus,
+nav button[type="submit"]:hover {
+    outline: none;
+    /* Menghilangkan outline default */
+}
+
+.general {
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+    left: 15%;
+    top: 2%;
+    display: flex;
+}
+
+nav > ul > li > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 178vh;
+    top: 1.5%;
+    position: absolute;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 78vh;
+    background-color: #D1BB9E;
+    color: #fff;
+
+}
+
+main>p {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+    z-index: 3;
+
+}
+
+#content {
+    width: 75%;
+    height: 97%;
+    position: relative;
+    top: 3vh;
+    left: 3vh;
+    background-color: #FFF2E1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, .5);
+    color: #333;
+    display: flex;
+}
+
+h1 {
+    font-size: 5vh;
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 33,
+    "SHLN" 50;
+}
+
+.judul-website {
+      position: absolute;
+      margin-top: -4vh;
+}
+
+#gambar {
+    height: 70%;
+    width: 93%;
+    top: 20%;
+    left: 5vh;
+    background-image: url(img/my2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border: 2px solid rgba(51, 51, 51, .5);
+    background-position: center center;
+    border-radius: 10px;
+}
+
+#gambar > a > img {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 2.3%;
+    box-shadow: 5px 5px 5px rgb(48, 37, 37);
+}
+
+#gambar > .caption {
+    width: 96%;
+    height: 10%;
+    margin-left: 3vh;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Zilla Slab", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+}
+
+#sidebar {
+    width: 20%;
+    height: 97%;
+    top: 3vh;
+    left: 7vh;
+    position: relative;
+    background-color: #FFF2E1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, .5);
+
+}
+
+#sidebar > pre {
+    color: #373A40;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+    font-weight: bold;
+}
+
+#sidebar > figcaption{
+    padding-left: 2vh;
+    color: black;
+    font-weight: bold;
+
+}
+
+#footer {
+    background-color: #F3EEEA;
+    width: 100%;
+    height: 6vh;
+    top: 93.5vh;
+    bottom: 0%;
+    position: absolute;
+    text-decoration: underline dashed;
+}
+
+#footer>h1 {
+    font-weight: bold;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.judul {
+    position: relative;
+    color: #333;
+    left: 20px;
+}
+
+.text {
+    margin: 10px;
+    line-height: 1.7em;
+}
+
+.kyai {
+    margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, .5);
+}
+
+h2 {
+    margin: 10px;
+    color: #333;
+}
+
+.text2 {
+    padding: 10px;
+    overflow: hidden;
+    color: #333;
+}
+
+section > pre {
+    color: #373A40;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+    font-weight: bold;
+}
+
+section > figcaption {
+    padding-left: 2vh;
+    color: black;
+    font-weight: bold;
+}
